@@ -21,6 +21,19 @@ body{
     top: 0;
     left: 0;
     z-index: 70;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.upgrade{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 1rem 2.5rem;
+    border: 1px solid white;
+    border-radius: 30px;
 }
 
 /* main */
