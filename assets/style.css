@@ -375,6 +375,10 @@ h4{
     background-color: white;
 }
 
+.album:hover{
+    cursor: pointer;
+}
+
 /* audio */
 
 .audio{
@@ -385,4 +389,51 @@ h4{
     bottom: 0;
     left: 0;
     z-index: 90;
+    display: flex;
+    justify-content: space-between;
+}
+
+.audio-side{
+    width: 20%;
+    height: 100%;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    padding-inline: 0.5rem;
+}
+
+.song{
+    display: flex;
+    align-items: center;
+}
+
+.sinister{
+    display: inline-block;
+    height: 60px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+    padding-right: 0.5rem;
+}
+
+.sinister-1{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.nome-brano{
+    font-size: 13px;
+}
+
+.fa-heart, .fa-folder{
+    color: #7b7d82;
+}
+
+.audio-central{
+    width: 60%;
+    height: 100%;
+    background-color: beige;
 }
