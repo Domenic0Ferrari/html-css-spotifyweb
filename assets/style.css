@@ -393,10 +393,11 @@ h4{
     justify-content: space-between;
 }
 
-.audio-side{
+/* sezione sinistra */
+
+.audio-left{
     width: 20%;
     height: 100%;
-    background-color: orange;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -432,8 +433,84 @@ h4{
     color: #7b7d82;
 }
 
+/* sezione centrale */
+
 .audio-central{
     width: 60%;
     height: 100%;
-    background-color: beige;
+    display: flex;
+    flex-direction: column;
+}
+
+.display{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.fa-shuffle, .fa-backward-fast, .fa-forward-fast, .fa-arrow-rotate-right{
+    color: white;
+}
+
+.fa-circle-play{
+    color: white;
+    font-size: 30px;
+}
+
+.display-2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.number{
+    font-size: 12px;
+    color: white;
+}
+
+.volume{
+    width: 50%;
+    height: 2px;
+    background-color: #7b7d82;
+}
+
+.volume-2{
+    width: 35%;
+    background-color: white;
+    height: 2px;
+}
+
+/* sezione destra */
+
+.audio-right{
+    width: 20%;
+    height: 100%;
+    padding-inline: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+
+.fa-bars-staggered, .fa-tv, .fa-volume-high{
+    color: white;
+    font-size: 13px;
+}
+
+.volume-bar{
+    width: 40%;
+    height: 2px;
+    background-color: #7b7d82;
+}
+
+.volume-bar-white{
+    background-color: white;
+    width: 30%;
+    height: 2px;
 }
