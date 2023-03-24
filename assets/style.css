@@ -477,14 +477,27 @@ h4{
 
 .volume{
     width: 50%;
-    height: 2px;
+    height: 4px;
     background-color: #7b7d82;
+    border-radius: 20px;
 }
 
 .volume-2{
     width: 35%;
     background-color: white;
-    height: 2px;
+    height: 4px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ball{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    display: none;
 }
 
 /* sezione destra */
@@ -507,12 +520,58 @@ h4{
 
 .volume-bar{
     width: 40%;
-    height: 2px;
+    height: 4px;
     background-color: #7b7d82;
+    border-radius: 20px;
 }
 
 .volume-bar-white{
     background-color: white;
     width: 60%;
-    height: 2px;
+    height: 4px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+} 
+
+/* add hover in last section */
+
+.nome-brano:hover{
+    text-decoration: underline;
+}
+
+.fa-folder:hover{
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.fa-heart:hover{
+ color: white;
+ font-size: 17px;
+ cursor: pointer;
+}
+
+.volume-2:hover{
+    background-color: lime;
+    cursor: pointer;
+}
+
+.volume-2:hover .ball{
+    display: block;
+}
+
+.volume-bar-white:hover{
+    background-color: lime;
+    cursor: pointer;
+}
+
+.volume-bar-white:hover .ball{
+    display: block;
+}
+
+.fa-circle-play:hover{
+    cursor: pointer;
+    font-size: 35px;
 }
